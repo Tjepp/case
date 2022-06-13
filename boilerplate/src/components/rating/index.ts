@@ -22,7 +22,7 @@ export class CaseRating extends LitElement {
 
     button {
       all: unset;
-      fill: var(--star-color, ${defaultActive});
+      fill: var(--star-color);
     }
 
     .container:hover > button {
